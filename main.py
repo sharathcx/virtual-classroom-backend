@@ -22,4 +22,4 @@ def read_root():
     return {"message": "Hello, world!"}
 
 if __name__ == "__main__":
-    uvicorn.run(app, port=8000)
+    uvicorn.run(app, port=80)
